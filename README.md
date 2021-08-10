@@ -28,5 +28,17 @@ exoplanet_data.csv
 3.52 MB
 50 columns
 
+Feature Selection:
+✓ Uses some form of feature selection method to identify insignificant variables (feature_importance, RFE, backwards elimination, etc.)
+✓ Remove insignificant variables and retrain models with the significant features
+
+
+
+Reporting
+✓ README compares each of the models’ performances and predictions
+✓ README summarizes the findings and makes assumptions based on the data and their models.
+✓ README discusses the predictions of the possible exoplanets with their models.
+
+
 
 
