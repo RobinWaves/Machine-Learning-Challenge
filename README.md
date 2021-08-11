@@ -11,13 +11,33 @@ Unecessary columns and null entries were removed from the dataset.  It was then 
 2. summarizes the findings and makes assumptions based on the data and their models.
 3. discusses the predictions of the possible exoplanets with their models.
 
-Random Forest .898 testing data score/accuracy
-        after tuning .895
+Logistic Regression - 
 
-        
-Feature Selection:
-✓ Uses some form of feature selection method to identify insignificant variables (feature_importance, RFE, backwards elimination, etc.)
-✓ Remove insignificant variables and retrain models with the significant features
+Set Significant Features
+Training Data Score: 0.8037383177570093
+Testing Data Score: 0.8032036613272311
+Hyperparameter Tuning (75 fits)
+{'C': 100, 'max_iter': 500, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.8107949046347303
+
+Support Vector Machines -
+
+Set Significant Features
+Training Data Score: 0.6580202174327675
+Testing Data Score: 0.6493135011441648
+Hyperparameter Tuning (45 fits)
+{'C': 10, 'gamma': 0.0001}
+0.6770935969552972
+
+Random Forest -
+
+Set Significant Features
+Training Data Score: 1.0
+Testing Data Score: 0.8924485125858124
+Hyperparameter Tuning (20 fits)
+Training Data Score: 1.0
+Testing Data Score: 0.8930205949656751
+
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
