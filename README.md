@@ -25,5 +25,10 @@ Training Data Score: 0.6580
 Testing Data Score: 0.6493
 Grid Best Score: 0.6771
 
+Logical Regression Model
+Training Data Score: 0.8037
+Testing Data Score: 0.8032
+Grid Best Score: 0.8108
+
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
