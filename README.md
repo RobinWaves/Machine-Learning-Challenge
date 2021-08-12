@@ -15,5 +15,13 @@ The assumption that more variables make a better model and a more complex model 
 
 Four significant variables were used in all three models are koi_period, koi_teq, koi_model_snr, koi_fpflag_nt.  These factors probably most contribute to the outcomes.  
 
+Random Forest Model
+Training Data Score: 1.0
+Testing Data Score: 0.8924
+Grid Best Score: 0.8909
+
+Support Vector Machine Model
+
+
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
