@@ -9,21 +9,10 @@ Unecessary columns and null entries were removed from the dataset.  It was then 
 
 The objective of model evaluation is to estimate the accuracy of a model on unseen data.  Accuracy is a common evaulation metric to look at when tackling classifications.  It is the ratio of correctly predicted observations to the total number of observations.  Another metric is precision which is a ratio of correctly predicted positive observations to the total of those observations.  Recall is the ratio of correctly predicted positive observations to the total predicted positive observations.  The final metric is F1 which is an average of the precision and recall.  Where 1 is it's best value and it's worst is 0.  The Random Forest model beat or met all the metrics of the other two models.
 
-With all three models the training score was better than the testing score.  This is expected because the model was trained on the training dataset.  When conducting the hyperparameter tuning the Random Forest model took the longest time to execute.  
+With all three models the training score was better than the testing score.  This is expected because the model was trained on the training dataset.  When conducting the hyperparameter tuning the Random Forest model took the longest time to execute.  Therefore, less fits were conducted.
 
+The assumption that more variables make a better model and a more complex model makes a better prediction are not always true.  If you can achieve accuracy with a simple model then use that model.  More unnecessary variables can create noise.  Also, overfitting the model can be a mistake.  The finer you tune the model to the training dataset, the higher the possibility of getting an unwanted result from your testing dataset becomes.
 
-preformance - Precision is the ratio of correctly predicted positive observations to the total 
-predicted positive observations (i.e., of all the samples we classified as 
-Cancer, how many are actually Cancer?)
-recall - Recall is the ratio of correctly predicted positive observations to the total 
-predicted positive observations (i.e., of all the actual Cancer samples, how 
-many did we classify as Cancer?).
-F1 - The F1 score is the harmonic average of the precision and recall, where an F1 
-score reaches its best value at 1 (perfect precision and recall) and worst at 0.
-
-
-1. compares each of the models’ performances and predictions
-2. summarizes the findings and makes assumptions based on the data and their models.
 3. discusses the predictions of the possible exoplanets with their models.
 
 Logistic Regression - 
