@@ -7,17 +7,24 @@ The dataset used is a CSV file containing records of all observed Kepler "object
 
 Unecessary columns and null entries were removed from the dataset.  It was then split into testing and training sets and scaled accordingly.  Machine learning models were created to classify identified exoplanets from this dataset. Hyperparameter tuning was done with GridSearch to find the best parameters and create a tuned model.  Models examined were Logistic Regression, Support Vector Machines, and Random Forests.  
 
-The objective of model evaluation is to estimate the accuracy of a model on unseen data.  Accuracy is a common evaulation metric to look at when tackling classifications.  It is the ratio of correctly predicted observations to the total number of observations.  The Random Forest model far outperformed with an accuracy of .89 and the poorest model was Support Vector Machine.
+The objective of model evaluation is to estimate the accuracy of a model on unseen data.  Accuracy is a common evaulation metric to look at when tackling classifications.  It is the ratio of correctly predicted observations to the total number of observations.  Another metric is precision which is a ratio of correctly predicted positive observations to the total of those observations.  Recall is the ratio of correctly predicted positive observations to the total predicted positive observations.  The final metric is F1 which is an average of the precision and recall.  Where 1 is it's best value and it's worst is 0.  The Random Forest model beat or met all the metrics of the other two models.
 
 With all three models the training score was better than the testing score.  This is expected because the model was trained on the training dataset.  When conducting the hyperparameter tuning the Random Forest model took the longest time to execute.  
 
-The preformance of 
+
+preformance - Precision is the ratio of correctly predicted positive observations to the total 
+predicted positive observations (i.e., of all the samples we classified as 
+Cancer, how many are actually Cancer?)
+recall - Recall is the ratio of correctly predicted positive observations to the total 
+predicted positive observations (i.e., of all the actual Cancer samples, how 
+many did we classify as Cancer?).
+F1 - The F1 score is the harmonic average of the precision and recall, where an F1 
+score reaches its best value at 1 (perfect precision and recall) and worst at 0.
+
 
 1. compares each of the models’ performances and predictions
 2. summarizes the findings and makes assumptions based on the data and their models.
 3. discusses the predictions of the possible exoplanets with their models.
-
-
 
 Logistic Regression - 
 
