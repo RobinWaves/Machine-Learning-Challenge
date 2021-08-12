@@ -13,40 +13,7 @@ With all three models the training score was better than the testing score.  Thi
 
 The assumption that more variables make a better model and a more complex model makes a better prediction are not always true.  If you can achieve accuracy with a simple model then use that model.  More unnecessary variables can create noise.  Also, overfitting the model can be a mistake.  The finer you tune the model to the training dataset, the higher the possibility of getting an unwanted result from your testing dataset becomes.
 
-Four significant variables were used in all three models are koi_period, koi_teq, koi_model_snr, koi_fpflag_nt.  
-
-
-
-3. discusses the predictions of the possible exoplanets with their models.
-
-Logistic Regression - 
-
-Set Significant Features
-Training Data Score: 0.8037383177570093
-Testing Data Score: 0.8032036613272311
-
-Hyperparameter Tuning (75 fits)
-{'C': 100, 'max_iter': 500, 'penalty': 'l2', 'solver': 'newton-cg'}
-0.8107949046347303
-
-Support Vector Machines -
-
-Set Significant Features
-Training Data Score: 0.6580202174327675
-Testing Data Score: 0.6493135011441648
-
-Hyperparameter Tuning (45 fits)
-{'C': 10, 'gamma': 0.0001}
-0.6770935969552972
-
-Random Forest
-* Set Significant Features
-- Training Data Score: 1.0
-- Testing Data Score: 0.8924485125858124
-
-* Hyperparameter Tuning (20 fits)
-- {'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 400}
-- 0.8909000938734819
+Four significant variables were used in all three models are koi_period, koi_teq, koi_model_snr, koi_fpflag_nt.  These factors probably most contribute to the outcomes.  
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
