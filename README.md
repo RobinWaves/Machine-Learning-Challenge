@@ -11,7 +11,7 @@ The objective of model evaluation is to estimate the accuracy of a model on unse
 
 With all three models the training score was better than the testing score.  This is expected because the model was trained on the training dataset.  When conducting the hyperparameter tuning the Random Forest model took the longest time to execute.  Therefore, less fits were conducted.
 
-The assumption that more variables make a better model and a more complex model makes a better prediction are not always true.  If you can achieve accuracy with a simple model then use that model.  More unnecessary variables can create noise.  Also, overfitting the model can be a mistake.  The finer you tune the model to the training dataset, the higher the possibility of getting an unwanted result from your testing dataset becomes.
+The assumptions that more variables make a better model and a more complex model make a better prediction are not always true.  If you can achieve accuracy with a simple model then use that model.  Unnecessary variables can create noise.  Also, overfitting the model can be a mistake.  The finer you tune the model to the training dataset, the higher the possibility of getting an unwanted result from your testing dataset becomes.
 
 Four significant variables were used in all three models are koi_period, koi_teq, koi_model_snr, koi_fpflag_nt.  These factors probably most contribute to the outcomes.  
 
