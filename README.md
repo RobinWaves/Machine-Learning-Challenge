@@ -13,7 +13,7 @@ With all three models the training score was better than the testing score.  Thi
 
 The assumptions that more variables make a better model and a more complex model make a better prediction are not always true.  If you can achieve accuracy with a simple model then use that model.  Unnecessary variables can create noise.  Also, overfitting the model can be a mistake.  The finer you tune the model to the training dataset, the higher the possibility of getting an unwanted result from your testing dataset becomes.
 
-Four significant variables were used in all three models are koi_period, koi_teq, koi_model_snr, koi_fpflag_nt.  These factors probably most contribute to the outcomes.  
+Four significant variables that were used in all three models are koi_period, koi_teq, koi_model_snr, koi_fpflag_nt.  These factors probably contribute most to the outcomes.  
 
 1. Random Forest Model
     * Training Data Score: 1.0
