@@ -16,19 +16,19 @@ The assumption that more variables make a better model and a more complex model 
 Four significant variables were used in all three models are koi_period, koi_teq, koi_model_snr, koi_fpflag_nt.  These factors probably most contribute to the outcomes.  
 
 1. Random Forest Model
-* Training Data Score: 1.0
-* Testing Data Score: 0.8924
-* Grid Best Score: 0.8909
+    * Training Data Score: 1.0
+    * Testing Data Score: 0.8924
+    * Grid Best Score: 0.8909
 
 2. Logical Regression Model
-* Training Data Score: 0.8037
-* Testing Data Score: 0.8032
-* Grid Best Score: 0.8108
+    * Training Data Score: 0.8037
+    * Testing Data Score: 0.8032
+    * Grid Best Score: 0.8108
 
 3. Support Vector Machine Model
-* Training Data Score: 0.6580
-* Testing Data Score: 0.6493
-* Grid Best Score: 0.6771
+    * Training Data Score: 0.6580
+    * Testing Data Score: 0.6493
+    * Grid Best Score: 0.6771
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
